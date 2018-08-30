@@ -13,6 +13,8 @@
 #include "../scripting/ScriptFixture.h"
 #include "../JsonComparer.h"
 
+#include <vcmi/events/ApplyDamage.h>
+
 #include "../../lib/NetPacks.h"
 
 namespace battle

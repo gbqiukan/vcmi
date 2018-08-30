@@ -737,7 +737,6 @@ const IBonusBearer * BattleInfo::asBearer() const
 
 int64_t BattleInfo::getActualDamage(const TDmgRange & damage, int32_t attackerCount, vstd::RNG & rng) const
 {
-
 	if(damage.first != damage.second)
 	{
 		int64_t sum = 0;
